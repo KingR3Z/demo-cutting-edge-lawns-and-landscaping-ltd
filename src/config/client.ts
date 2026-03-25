@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "5",
 
   // Services
   services: [
@@ -79,9 +79,11 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Ria Davies", rating: 5, text: "Adam and his team landscaped, levelled and astroturfed our extremely boggy and uneven garden last February. Bearing in mind the weather conditions they worked their socks off and completed a fantastic job within a week or two which has …    Respons", date: "5 years ago" },
+    { name: "Richard Talman", rating: 5, text: "Absolutely delighted with the service and craftsmanship from this company.  Adam returned my call and visited to quote on time, and completed the job on time to exceptionally high standards.  Highly recommended. ", date: "7 years ago" },
+    { name: "Zara Garrett", rating: 5, text: "Brilliant service from Adam and his team, really pleased with my decking makeover with the best quality artificial grass thanks, would recommend!  ", date: "5 years ago" },
+    { name: "Luke Flynn", rating: 5, text: "Very good and some great ideas ", date: "5 years ago" },
+    { name: "Janasis", rating: 5, text: "Satisfactory service. ", date: "Edited 5 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
